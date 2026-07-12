@@ -12,8 +12,7 @@ print("Files:", os.listdir())
 # Load Model
 # =========================
 
-model = pickle.load(open("best_model1.pkl", "rb"))
-# model = pickle.load(open("final_model.pkl", "rb"))
+model = pickle.load(open("best_model1.pkl", "rb"))# model = pickle.load(open("final_model.pkl", "rb"))
 # =========================
 # Page Config-
 # =========================

@@ -12,7 +12,7 @@ print("Files:", os.listdir())
 # Load Model
 # =========================
 
-model = pickle.load(open("C:\\Users\\krush\\OneDrive\\Documents\\Downloads\\ITR\\diabetes project\\best_model1.pkl", "rb"))
+model = pickle.load(open("best_model1.pkl", "rb"))
 # model = pickle.load(open("final_model.pkl", "rb"))
 # =========================
 # Page Config-
